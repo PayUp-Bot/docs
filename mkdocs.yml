@@ -15,8 +15,8 @@ theme:
         icon: material/weather-sunny
         name: Light Mode
 
-    primary: green
-    accent: teal
+      primary: green
+      accent: teal
 
   icon:
     repo: fontawesome/brands/github
