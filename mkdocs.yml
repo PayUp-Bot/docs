@@ -17,18 +17,27 @@ theme:
     primary: green
     accent: teal
 
-  features:
-    - content.action.edit
+  icon:
+    repo: fontawesome/brands/github
+
+features:
+  - content.action.edit
   
-  plugins:
+plugins:
   - git-revision-date-localized:
       enable_creation_date: true
   - git-committers:
       repository: payup-bot/docs
       branch: main
 
-  icon:
-    repo: fontawesome/brands/github
+extra:
+  consent:
+    title: Cookie Consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
 
 repo_url: https://github.com/PayUp-Bot/docs
 repo_name: payup-bot/docs
