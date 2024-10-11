@@ -1,6 +1,7 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 
 site_name: PayUp Documentation
+site_url: https://payup-bot.github.io/docs/
 
 theme:
   name: material
@@ -20,15 +21,31 @@ theme:
   icon:
     repo: fontawesome/brands/github
 
-features:
-  - content.action.edit
+  features:
+    - content.action.edit
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.instant.prefetch
+    - navigation.instant.preview
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - toc.follow
+    - toc.integrate
+    - navigation.top
+    - search
+    - search.suggest
+    - search.highlight
   
-plugins:
-  - git-revision-date-localized:
-      enable_creation_date: true
-  - git-committers:
-      repository: payup-bot/docs
-      branch: main
+  plugins:
+    - git-revision-date-localized:
+        enable_creation_date: true
+    - git-committers:
+        repository: payup-bot/docs
+        branch: main
+    - privacy
 
 extra:
   consent:
@@ -38,6 +55,10 @@ extra:
       as to measure the effectiveness of our documentation and whether users
       find what they're searching for. With your consent, you're helping us to
       make our documentation better.
+
+copyright: >
+  Copyright &copy; 2024 PayUp –
+  <a href="#__consent">🍪 Manage Cookies</a>
 
 repo_url: https://github.com/PayUp-Bot/docs
 repo_name: payup-bot/docs
