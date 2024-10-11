@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+
+site_name: PayUp Documentation
+
+theme:
+  name: material
+  features:
+    - content.action.edit
+  
+  plugins:
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - git-committers:
+      repository: payup-bot/docs
+      branch: main
+
+  icon:
+    repo: fontawesome/brands/github
+
+repo_url: https://github.com/PayUp-Bot/docs
+repo_name: payup-bot/docs
+edit_uri: edit/main/docs/
