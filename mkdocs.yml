@@ -4,6 +4,19 @@ site_name: PayUp Documentation
 
 theme:
   name: material
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Light Mode
+
+    primary: green
+    accent: teal
+
   features:
     - content.action.edit
   
