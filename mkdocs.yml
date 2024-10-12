@@ -39,12 +39,14 @@ theme:
     - navigation.sections
     - navigation.expand
     - navigation.path
+    - content.tooltips
     - toc.follow
     - toc.integrate
     - navigation.top
     - search
     - search.suggest
     - search.highlight
+    - search.share
     - header.autohide
     - content.code.copy
     - navigation.footer
