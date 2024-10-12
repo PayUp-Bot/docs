@@ -405,58 +405,89 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#test" class="md-nav__link">
+  <a href="#bot-setup" class="md-nav__link">
     <span class="md-ellipsis">
-      Test
+      Bot Setup
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Test">
+    <nav class="md-nav" aria-label="Bot Setup">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#test2" class="md-nav__link">
+  <a href="#inviting-the-bot" class="md-nav__link">
     <span class="md-ellipsis">
-      Test2
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Test2">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#test3" class="md-nav__link">
-    <span class="md-ellipsis">
-      Test3
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Test3">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#test-4" class="md-nav__link">
-    <span class="md-ellipsis">
-      Test 4
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Test 4">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#test-5" class="md-nav__link">
-    <span class="md-ellipsis">
-      Test 5
+      Inviting the Bot
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#test-6" class="md-nav__link">
+  <a href="#role-setup" class="md-nav__link">
     <span class="md-ellipsis">
-      # Test 6
+      Role Setup
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#channel-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Channel Setup
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stripe-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Stripe Setup
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Stripe Setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#account-creation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Account Creation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getting-your-keys" class="md-nav__link">
+    <span class="md-ellipsis">
+      Getting your Keys
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Getting your Keys">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#retrieving-test-key" class="md-nav__link">
+    <span class="md-ellipsis">
+      Retrieving Test Key
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#retrieving-live-keys" class="md-nav__link">
+    <span class="md-ellipsis">
+      Retrieving Live Keys
     </span>
   </a>
   
@@ -467,13 +498,12 @@
   
 </li>
         
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
+          <li class="md-nav__item">
+  <a href="#configuring-stripe" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuring Stripe
+    </span>
+  </a>
   
 </li>
         
@@ -514,50 +544,87 @@
 
 
 <h1 id="setup">Setup</h1>
-<h2 id="test">Test</h2>
-<h3 id="test2">Test2</h3>
-<h4 id="test3">Test3</h4>
-<h5 id="test-4">Test 4</h5>
-<h6 id="test-5">Test 5</h6>
-<h6 id="test-6"># Test 6</h6>
-<p>Test</p>
-<p><strong>Test</strong></p>
-<p><em>Test</em></p>
-<p><strong><em>Test</em></strong></p>
-<p><strong>Test</strong></p>
-<p>~~Test~~</p>
+<p>This setup page has been carefully created to provide a step by step guide to help you setup and get the most out of PayUp.</p>
+<p>If you require further assistance, you should contact support in our <a href="https://discord.gg/vuRx9kJJqg">Discord Server ↗</a></p>
+<h2 id="bot-setup">Bot Setup</h2>
+<p>The first part of using PayUp is to install the bot into your server, and create the relevant roles and channels.</p>
+<h3 id="inviting-the-bot">Inviting the Bot</h3>
+<p>First of all, we need to <a href="https://discord.com/oauth2/authorize?client_id=1292577670164516934">invite the bot ↗</a>. This will install the bot into your server with the permissions it needs. Once we have invited the bot, we can move on to creating our roles and channels the bot needs.</p>
+<h3 id="role-setup">Role Setup</h3>
+<p>Lets begin with our roles. PayUp uses 3 roles: <strong>manager, seller and buyer</strong>. These will be referred to as the <strong>3 key roles</strong>. A quick breakdown can be found below:</p>
 <table>
 <thead>
 <tr>
-<th>Syntax</th>
+<th>Role</th>
 <th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Header</td>
-<td>Title</td>
+<td>Manager</td>
+<td>Permitted to create products</td>
 </tr>
 <tr>
-<td>Paragraph</td>
-<td>Text</td>
+<td>Seller</td>
+<td>Permitted to prompt users to purchase products</td>
+</tr>
+<tr>
+<td>Buyer</td>
+<td>Automatically assigned role for completed transactions</td>
 </tr>
 </tbody>
 </table>
-<blockquote>
-<p>Test</p>
-</blockquote>
-<ol>
-<li>Test<ol>
-<li>Test</li>
-</ol>
-</li>
-<li>Test</li>
-</ol>
-<div class="admonition example">
-<p class="admonition-title">Example</p>
-<p>testing</p>
-</div>
+<p>In order for PayUp to successfully assign these roles to people, the automatically created <code>PayUp</code> role must be above the 3 key roles.</p>
+<p>An example of a good role setup can be seen below:</p>
+<p><img alt="PayUp Role Setup" src="../assets/images/roles_demo.png" /></p>
+<p>Once we have done the roles, we can move on to the channels.</p>
+<h3 id="channel-setup">Channel Setup</h3>
+<p>PayUp only requires 1 channel, which is used for logging purposes. We recommend to keep this private to Sellers and/or Managers, as it may contain sensitive information about transactions.</p>
+<p>You can view the recommended permission setup below:</p>
+<table>
+<thead>
+<tr>
+<th>Role</th>
+<th>Permissions</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PayUp</td>
+<td>View Channel, Send Messages, Attach Files</td>
+</tr>
+<tr>
+<td>Manager</td>
+<td>View Channel</td>
+</tr>
+<tr>
+<td>Seller</td>
+<td>View Channel</td>
+</tr>
+<tr>
+<td>@everyone</td>
+<td>View Channel ❌, Send Messages ❌</td>
+</tr>
+</tbody>
+</table>
+<p>Now we have completed this step, we can move on to our Payment Processors.</p>
+<p>To skip directly to a section, press one of the following:</p>
+<p><a class="md-button" href="#stripe-setup"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M155.3 154.6c0-22.3 18.6-30.9 48.4-30.9 43.4 0 98.5 13.3 141.9 36.7V26.1C298.3 7.2 251.1 0 203.8 0 88.1 0 11 60.4 11 161.4c0 157.9 216.8 132.3 216.8 200.4 0 26.4-22.9 34.9-54.7 34.9-47.2 0-108.2-19.5-156.1-45.5v128.5a396.1 396.1 0 0 0 156 32.4c118.6 0 200.3-51 200.3-153.6 0-170.2-218-139.7-218-203.9"/></svg></span> Stripe Setup</a>
+<a class="md-button" href="#paypal-setup"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M111.4 295.9c-3.5 19.2-17.4 108.7-21.5 134-.3 1.8-1 2.5-3 2.5H12.3c-7.6 0-13.1-6.6-12.1-13.9L58.8 46.6c1.5-9.6 10.1-16.9 20-16.9 152.3 0 165.1-3.7 204 11.4 60.1 23.3 65.6 79.5 44 140.3-21.5 62.6-72.5 89.5-140.1 90.3-43.4.7-69.5-7-75.3 24.2M357.1 152c-1.8-1.3-2.5-1.8-3 1.3-2 11.4-5.1 22.5-8.8 33.6-39.9 113.8-150.5 103.9-204.5 103.9-6.1 0-10.1 3.3-10.9 9.4-22.6 140.4-27.1 169.7-27.1 169.7-1 7.1 3.5 12.9 10.6 12.9h63.5c8.6 0 15.7-6.3 17.4-14.9.7-5.4-1.1 6.1 14.4-91.3 4.6-22 14.3-19.7 29.3-19.7 71 0 126.4-28.8 142.9-112.3 6.5-34.8 4.6-71.4-23.8-92.6"/></svg></span> PayPal Setup</a></p>
+<h2 id="stripe-setup">Stripe Setup</h2>
+<h3 id="account-creation">Account Creation</h3>
+<p>The first step to using Stripe is <a href="https://dashboard.stripe.com/register">creating your account ↗</a>. This will allow us to interact with Stripe and handle payments for your business. Once you have created your account, you need to <a href="https://dashboard.stripe.com/account/onboarding">activate your account ↗</a> so you can take live payments.
+A full, detailed guide for creating your account has been made by Stripe to assist in this process. You can <a href="https://docs.stripe.com/get-started/account">view it here ↗</a>!</p>
+<h3 id="getting-your-keys">Getting your Keys</h3>
+<p>Great! Now that we have the account creation out of the way, we can move on to getting your "keys". These "keys" will allow us ("PayUp") to interact with your Stripe account and handle your payments. In order to fetch your keys, we need to do the following:</p>
+<h4 id="retrieving-test-key">Retrieving Test Key</h4>
+<p>To retreive your test key, you need to enable Test mode which can be toggled at the top of your <a href="https://dashboard.stripe.com">Stripe Dashboard ↗</a>.
+Once Test mode is enabled, you should see a 'For developers' section on the Home Page of your Test Dashboard. Press the eye next to the Secret key, and note the Secret key down as we will need it later.</p>
+<h4 id="retrieving-live-keys">Retrieving Live Keys</h4>
+<p>Once we have our test key, we now need to get our Live keys. To access these, we first need to disable Test mode. Once that is done, you will see a Publishable key and Secret key on the 'For developers' part of the Home Page on your Live Dashboard. Note both of these down, as we will be needing them later.</p>
+<h3 id="configuring-stripe">Configuring Stripe</h3>
+<p>Great! Now that we have all the information we need, we can move back to our Discord Server and configure Stripe. We advise you to complete the following steps in a private channel, restricted to yourself and those you trust as sensitive information may be disclosed.</p>
+<p>In your private channel, type <code>/setup set-stripe</code>. This should display a command above the chat box. Press tab to load the command into your chat, and fill out the <code>secret_key</code> (live mode, secret key) and <code>test_key</code> (test mode, secret key) fields. Once that is done, press enter to run the command.</p>
 
 
 
