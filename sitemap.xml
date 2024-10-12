@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://payup-bot.github.io/docs/</loc>
+         <loc>https://docs.payup.systems/</loc>
          <lastmod>2024-10-12</lastmod>
     </url>
     <url>
-         <loc>https://payup-bot.github.io/docs/basics/</loc>
+         <loc>https://docs.payup.systems/basics/</loc>
          <lastmod>2024-10-12</lastmod>
     </url>
     <url>
-         <loc>https://payup-bot.github.io/docs/Setup-Guide/initial-setup/</loc>
+         <loc>https://docs.payup.systems/Setup-Guide/initial-setup/</loc>
          <lastmod>2024-10-12</lastmod>
     </url>
     <url>
-         <loc>https://payup-bot.github.io/docs/Setup-Guide/products-setup/</loc>
+         <loc>https://docs.payup.systems/Setup-Guide/products-setup/</loc>
          <lastmod>2024-10-12</lastmod>
     </url>
 </urlset>
