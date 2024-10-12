@@ -24,7 +24,7 @@ PayUp simplifies payment processing within your community by integrating directl
 
 ## Disputes and Refunds
 1. Understanding Refunds:
-	Since PayUp is a bridge between your server and the [payment processors ↗](docs/basics/#payment-handling), it only handles information regarding the payment process. This means that we have no way of providing refunds or managing disputes. This means we rely on the seller to manage refunds and disputes.
+	Since PayUp is a bridge between your server and the [payment processors ↗](#payment-handling), it only handles information regarding the payment process. This means that we have no way of providing refunds or managing disputes. This means we rely on the seller to manage refunds and disputes.
 	* Seller Responsibility:
 		As a seller, you have control over refund policies and how they are implemented. This means you can setup a custom refund policy that best suits your business. When a refund is requested, you are to handle that directly via Stripe or PayPal inline with their respective guidelines.
 	* Processor Rules:
@@ -55,4 +55,4 @@ PayUp simplifies payment processing within your community by integrating directl
 We have tried extremely hard to keep the setup process as simple as possible. All you have to do is invite the bot to your server, create your PayPal Business/Stripe Seller account(s) and configure them with the bot.
 
 !!! tip
-	To assist with setup, we have created a special [setup ↗](docs/setup) page for you to follow!
+	To assist with setup, we have created a special [setup ↗](/docs/setup-guide/initial-setup) page for you to follow!
