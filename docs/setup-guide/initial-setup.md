@@ -1,4 +1,4 @@
-# Setup
+# Initial Setup
 This setup page has been carefully created to provide a step by step guide to help you setup and get the most out of PayUp.
 
 If you require further assistance, you should contact support in our [Discord Server ↗](https://discord.gg/vuRx9kJJqg).
@@ -22,7 +22,7 @@ In order for PayUp to successfully assign these roles to people, the automatical
 
 An example of a good role setup can be seen below:
 
-![PayUp Role Setup](assets/images/roles_demo.png)
+![PayUp Role Setup](../assets/images/roles_demo.png)
 
 Once we have done the roles, we can move on to the channels.
 
@@ -36,7 +36,9 @@ You can view the recommended permission setup below:
 | PayUp | View Channel, Send Messages, Attach Files |
 | Manager | View Channel |
 | Seller | View Channel |
-| @everyone | View Channel ❌, Send Messages ❌ |
+| @everyone | ❌ View Channel, ❌ Send Messages |
+!!! tip
+	All permissions listed without an '❌' should be enabled.
 
 Now we have completed this step, we can move on to our Payment Processors.
 
@@ -66,7 +68,7 @@ Great! Now that we have all the information we need, we can move back to our Dis
 
 In your private channel, type `/setup set-stripe`. This should display a command above the chat box. Press ++tab++ to load the command into your chat, and fill out the `secret_key` (live mode, secret key) and `test_key` (test mode, secret key) fields. Once that is done, press enter to run the command.
 
-Almost there! Just one more command to run. Once you have set your Stripe credentials, execute this command: `/setup toggle-stripe enabled:True`. If you are not planning on configuring PayPal Support, then [click here ↗](#final-steps) to go directly to the final steps.
+Almost there! Just one more command to run. Once you have set your Stripe credentials, execute this command: `/setup toggle-stripe enabled:True`. If you are not planning on configuring PayPal Support, then [click here ↗](#final-steps){ data-preview } to go directly to the final steps.
 
 ## :fontawesome-brands-paypal: PayPal Setup
 !!! info
@@ -94,6 +96,18 @@ In your private channel, type `/setup set-paypal`. This should display a command
 Almost there! Just one more command to run. Once you have set your PayPal credentials, execute this command: `/setup toggle-paypal enabled:True`. Now we can move on to the final steps!
 
 ## Final Steps
-Now our payment providers are configured, we are 75% of the way ready to a functioning store!
 !!! info
-	This section is yet to be filled.
+	This section is yet to be finished.
+Now our payment providers are configured, we are 75% of the way ready to a functioning store!
+
+### Server Configuration
+To get the most out of PayUp, lets go through some configuration steps. To complete this setup, you should create the roles and channel(s) mentioned in the [bot setup section ↗](#bot-setup) (if you havent done so already).
+
+In your private channel (the same one used to configure :fontawesome-brands-paypal:/:fontawesome-brands-stripe-s:), run the following commands:
+
+* `/setup set-buyer-role`
+* `/setup set-seller-role`
+* `/setup set-manager-role`
+* `/setup set-logging-channel`
+
+Simple as that! PayUp is now fully configured and ready to accept payments for your guild :winking_face:
