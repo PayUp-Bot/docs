@@ -9,7 +9,7 @@ If you need proper support with PayUp, then we recommend you visit our [Support 
 
 ## Important Documentation
 
-* [`PayUp Privacy Policy ↗`](https://github.com/PayUp-Bot/Privacy-Policy/README.md)
-* [`PayUp Terms of Service ↗`](https://github.com/PayUp-Bot/Terms-of-Service/README.md)
+* [`PayUp Privacy Policy ↗`](https://github.com/PayUp-Bot/Privacy-Policy/blob/main/README.md)
+* [`PayUp Terms of Service ↗`](https://github.com/PayUp-Bot/Terms-of-Service/blob/main/README.md)
 * [`Stripe Privacy Policy ↗`](https://stripe.com/privacy)
 * [`PayPal Privacy Statement ↗`](https://paypal.com/uk/legalhub/privacy-full)
