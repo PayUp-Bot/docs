@@ -1,17 +1,15 @@
-# Welcome to MkDocs
+# Welcome to PayUp
+Welcome to the official PayUp Documentation. This site has been created by the PayUp Team and users to help you get the most out of PayUp!
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Contributing
+Whilst the PayUp bot itself is not open-source, we allow all team members and consumers to contribute to our [documentation ↗](https://github.com/PayUp-Bot/docs).
 
-## Commands
+## Further Assistance
+If you need proper support with PayUp, then we recommend you visit our [Support Server ↗](https://discord.gg/vuRx9kJJqg).
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Important Documentation
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+* [`PayUp Privacy Policy ↗`](https://github.com/PayUp-Bot/Privacy-Policy/README.md)
+* [`PayUp Terms of Service ↗`](https://github.com/PayUp-Bot/Terms-of-Service/README.md)
+* [`Stripe Privacy Policy ↗`](https://stripe.com/privacy)
+* [`PayPal Privacy Statement ↗`](https://paypal.com/uk/legalhub/privacy-full)

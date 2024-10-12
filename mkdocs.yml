@@ -6,17 +6,18 @@ site_url: https://payup-bot.github.io/docs/
 theme:
   name: material
   palette:
-    - scheme: default
-      toggle:
-        icon: material/weather-night
-        name: Dark Mode
     - scheme: slate
-      toggle:
-        icon: material/weather-sunny
-        name: Light Mode
-
       primary: green
       accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Dark Mode
+    - scheme: default
+      primary: green
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Light Mode
 
   icon:
     repo: fontawesome/brands/github
@@ -39,6 +40,8 @@ theme:
     - search.suggest
     - search.highlight
     - header.autohide
+    - content.code.copy
+    - navigation.footer
   
   plugins:
     - git-revision-date-localized:
@@ -70,10 +73,20 @@ extra:
           data: 0
           note: >- 
             Thanks for your feedback!.
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/PayUp-Bot
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/vuRx9kJJqg
 
 copyright: >
   Copyright &copy; 2024 PayUp –
   <a href="#__consent">🍪 Manage Cookies</a>
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
 
 repo_url: https://github.com/PayUp-Bot/docs
 repo_name: payup-bot/docs
