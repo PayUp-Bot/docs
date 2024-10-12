@@ -55,4 +55,4 @@ PayUp simplifies payment processing within your community by integrating directl
 We have tried extremely hard to keep the setup process as simple as possible. All you have to do is invite the bot to your server, create your PayPal Business/Stripe Seller account(s) and configure them with the bot.
 
 !!! tip
-	To assist with setup, we have created a special [setup ↗](/docs/setup-guide/initial-setup) page for you to follow!
+	To assist with setup, we have created a special [setup ↗](/Setup-Guide/initial-setup) page for you to follow!
