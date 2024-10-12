@@ -50,3 +50,9 @@ PayUp simplifies payment processing within your community by integrating directl
 		PayUp will update the statuses of payments within Discord. This ensures that everybody is informed and ensures transparency.
 	* Doesn't:
 		PayUp has **no control** over refund and dispute processes. All actions regarding refunds or disputes are carried out seperately from PayUp via your Stripe/PayPal accounts.
+		
+## How do I start using PayUp?
+We have tried extremely hard to keep the setup process as simple as possible. All you have to do is invite the bot to your server, create your PayPal Business/Stripe Seller account(s) and configure them with the bot.
+
+!!! tip
+	To assist with setup, we have created a special [setup ↗](docs/setup) page for you to follow!
