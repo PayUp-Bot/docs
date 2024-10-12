@@ -1,7 +1,7 @@
 # Setup
 This setup page has been carefully created to provide a step by step guide to help you setup and get the most out of PayUp.
 
-If you require further assistance, you should contact support in our [Discord Server ↗](https://discord.gg/vuRx9kJJqg)
+If you require further assistance, you should contact support in our [Discord Server ↗](https://discord.gg/vuRx9kJJqg).
 
 ## Bot Setup
 The first part of using PayUp is to install the bot into your server, and create the relevant roles and channels.
@@ -65,3 +65,12 @@ Once we have our test key, we now need to get our Live keys. To access these, we
 Great! Now that we have all the information we need, we can move back to our Discord Server and configure Stripe. We advise you to complete the following steps in a private channel, restricted to yourself and those you trust as sensitive information may be disclosed.
 
 In your private channel, type `/setup set-stripe`. This should display a command above the chat box. Press tab to load the command into your chat, and fill out the `secret_key` (live mode, secret key) and `test_key` (test mode, secret key) fields. Once that is done, press enter to run the command.
+
+Almost there! Just one more command to run. Once you have set your stripe credentials, execute this command: `/setup toggle-stripe enabled:True`. If you are not planning on configuring PayPal Support, then [click here ↗](#final-steps) to go directly to the final steps.
+
+## PayPal Setup
+!!! warning
+	This section has not yet been created.
+
+## Final Steps
+Now our payment providers are configured, we are 75% of the way ready to a functioning store!
